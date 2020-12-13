@@ -1,0 +1,26 @@
+[Unit]
+Description=ThatsTheLabor's distributed currency daemon
+After=network.target
+
+[Service]
+User=thatsthelabor
+Group=thatsthelabor
+
+Type=forking
+PIDFile=/var/lib/thatsthelabord/thatsthelabord.pid
+
+ExecStart=/usr/bin/thatsthelabord -daemon -pid=/var/lib/thatsthelabord/thatsthelabord.pid \
+          -conf=/etc/thatsthelabor/thatsthelabor.conf -datadir=/var/lib/thatsthelabord
+
+ExecStop=-/usr/bin/thatsthelabor-cli -conf=/etc/thatsthelabor/thatsthelabor.conf \
+         -datadir=/var/lib/thatsthelabord stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

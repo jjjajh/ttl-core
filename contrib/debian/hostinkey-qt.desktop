@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ThatsTheLabor
+Comment=ThatsTheLabor P2P Cryptocurrency
+Comment[fr]=ThatsTheLabor, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ThatsTheLabor, eşten eşe kriptografik sanal para birimi
+Exec=thatsthelabor-qt %u
+Terminal=false
+Type=Application
+Icon=thatsthelabor128
+MimeType=x-scheme-handler/thatsthelabor;
+Categories=Office;Finance;

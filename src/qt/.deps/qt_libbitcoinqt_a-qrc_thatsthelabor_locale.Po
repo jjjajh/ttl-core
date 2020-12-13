@@ -1,0 +1,2 @@
+qt/qt_libbitcoinqt_a-qrc_thatsthelabor_locale.o: \
+ qt/qrc_thatsthelabor_locale.cpp

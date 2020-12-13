@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/thatsthelabor_bg.qm</file>
+        <file alias="ca">locale/thatsthelabor_ca.qm</file>
+        <file alias="cs">locale/thatsthelabor_cs.qm</file>
+        <file alias="da">locale/thatsthelabor_da.qm</file>
+        <file alias="de">locale/thatsthelabor_de.qm</file>
+        <file alias="en">locale/thatsthelabor_en.qm</file>
+        <file alias="en_US">locale/thatsthelabor_en_US.qm</file>
+        <file alias="es">locale/thatsthelabor_es.qm</file>
+        <file alias="fi">locale/thatsthelabor_fi.qm</file>
+        <file alias="fr_FR">locale/thatsthelabor_fr_FR.qm</file>
+        <file alias="hr">locale/thatsthelabor_hr.qm</file>
+        <file alias="it">locale/thatsthelabor_it.qm</file>
+        <file alias="ja">locale/thatsthelabor_ja.qm</file>
+        <file alias="ko_KR">locale/thatsthelabor_ko_KR.qm</file>
+        <file alias="nl">locale/thatsthelabor_nl.qm</file>
+        <file alias="pl">locale/thatsthelabor_pl.qm</file>
+        <file alias="pt">locale/thatsthelabor_pt.qm</file>
+        <file alias="pt_BR">locale/thatsthelabor_pt_BR.qm</file>
+        <file alias="ro_RO">locale/thatsthelabor_ro_RO.qm</file>
+        <file alias="ru">locale/thatsthelabor_ru.qm</file>
+        <file alias="sk">locale/thatsthelabor_sk.qm</file>
+        <file alias="sv">locale/thatsthelabor_sv.qm</file>
+        <file alias="tr">locale/thatsthelabor_tr.qm</file>
+        <file alias="uk">locale/thatsthelabor_uk.qm</file>
+        <file alias="zh_CN">locale/thatsthelabor_zh_CN.qm</file>
+        <file alias="zh_TW">locale/thatsthelabor_zh_TW.qm</file>
+    </qresource>
+</RCC>
